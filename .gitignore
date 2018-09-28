@@ -1,29 +1,46 @@
-# Created by https://www.gitignore.io/api/java
+# folders
+.externalToolBuilders/
+.idea/
+.idea_modules/
+.settings/
+babelCache/
+bin/
+dist/
+dist-pretty/
+docs/coverage/
+node_modules/
+out/
+reports/
+target/
+tmp/
+pom/
 
-### Java ###
-# Compiled class file
-*.class
-
-# Log file
+# file types
+*.bak
+*.iml
+*.ipr
+*.iws
+*.launch
+*.lock
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+*.orig
+*.swp
+*.tmp
 *.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
-# End of https://www.gitignore.io/api/java
+# specific files
+.babelCache
+.buildpath
+.classpath
+.eslintcache
+.gradle
+.loadpath
+.metadata
+.nexus
+.nexusrc
+.project
+.target
+application-override.yml
+logback-override.xml
+package-lock.json
+pom.xml.versionsBackup
