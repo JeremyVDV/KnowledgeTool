@@ -1,4 +1,4 @@
-package nl.jeremyvdveen.knowledgetool.application;
+package nl.jeremyvdveen.knowledgetool.application.model;
 
 import lombok.Data;
 
