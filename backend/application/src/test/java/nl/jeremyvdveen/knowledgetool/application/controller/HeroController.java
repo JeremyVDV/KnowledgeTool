@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.restassured.RestAssured;
 
 @RestController
-public class HeroControllerTest {
+public class HeroController {
     @Value("${local.server.port}")
     private int localServerPort;
 
