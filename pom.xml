@@ -9,8 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <description>Online Advice - Affinity Feature Service</description>
-
     <modules>
         <module>backend</module>
     </modules>
